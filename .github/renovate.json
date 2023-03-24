@@ -4,7 +4,7 @@
   "ignorePresets": [":semanticPrefixFixDepsChoreOthers"],
   "packageRules": [
     {
-      "matchPaths": [".github/workflows/notify-*.yaml"],
+      "matchPaths": ["workflows/notify-*.yaml"],
       "semanticCommitType": "fix"
     }
   ]

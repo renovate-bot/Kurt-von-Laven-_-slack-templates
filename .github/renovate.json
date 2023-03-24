@@ -4,7 +4,7 @@
   "ignorePresets": [":semanticPrefixFixDepsChoreOthers"],
   "packageRules": [
     {
-      "matchPaths": ["workflows/notify-*.yaml"],
+      "matchFiles": ["workflows/notify-assignee.yaml", "workflows/notify-reviewers.yaml"],
       "semanticCommitType": "fix"
     }
   ]

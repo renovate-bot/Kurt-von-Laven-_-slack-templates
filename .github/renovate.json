@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["github>ScribeMD/.github#0.9.7"],
+  "ignorePresets": [":semanticPrefixFixDepsChoreOthers"],
   "packageRules": [
     {
       "matchDepNames": ["python"],
@@ -11,7 +12,6 @@
         ".github/workflows/notify-assignee.yaml",
         ".github/workflows/notify-reviewers.yaml"
       ],
-      "ignorePresets": [":semanticPrefixFixDepsChoreOthers"],
       "semanticCommitType": "fix"
     }
   ]

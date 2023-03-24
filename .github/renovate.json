@@ -8,7 +8,7 @@
       "semanticCommitType": "fix"
     },
     {
-      "matchFiles": [".github/workflows/notify-assignee.yaml"],
+      "matchPaths": [".github/workflows/notify-*.yaml"],
       "semanticCommitType": "fix"
     }
   ]

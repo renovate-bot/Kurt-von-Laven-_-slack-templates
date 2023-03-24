@@ -11,6 +11,7 @@
         ".github/workflows/notify-assignee.yaml",
         ".github/workflows/notify-reviewers.yaml"
       ],
+      "ignorePresets": [":semanticPrefixFixDepsChoreOthers"],
       "semanticCommitType": "fix"
     }
   ]

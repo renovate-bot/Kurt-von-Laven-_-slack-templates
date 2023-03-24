@@ -4,10 +4,6 @@
   "ignorePresets": [":semanticPrefixFixDepsChoreOthers"],
   "packageRules": [
     {
-      "matchDepNames": ["python"],
-      "semanticCommitType": "fix"
-    },
-    {
       "matchPaths": [".github/workflows/notify-*.yaml"],
       "semanticCommitType": "fix"
     }

@@ -3,10 +3,6 @@
   "extends": ["github>ScribeMD/.github#0.9.7"],
   "packageRules": [
     {
-      "matchDepNames": ["python"],
-      "semanticCommitType": "fix"
-    },
-    {
       "matchFiles": [
         ".github/workflows/notify-assignee.yaml",
         ".github/workflows/notify-reviewers.yaml"
@@ -14,7 +10,7 @@
       "semanticCommitType": "fix"
     },
     {
-      "matchPackageNames": ["actions/checkout"],
+      "matchPackageNames": ["actions/checkout", "python"],
       "semanticCommitType": "fix"
     }
   ]

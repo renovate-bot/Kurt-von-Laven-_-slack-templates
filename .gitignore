@@ -1,0 +1,11 @@
+# MegaLinter
+megalinter-reports
+
+# mypy
+.mypy_cache
+
+# Poetry
+.venv
+
+# Python
+__pycache__
